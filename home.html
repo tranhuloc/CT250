@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+
+        <!-- Embed fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet" />
+
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body>
+        <header class="header">
+            <!-- Header top -->
+            <div class="header-top">
+                <div class="container">
+                    <div class="right">
+                        <a href="#!" class="item d-flex align-items">
+                            <svg
+                                class="icon-hover-txt"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512">
+                                <path
+                                    fill="currentColor"
+                                    d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z" />
+                            </svg>
+                            <span class="hover-txt">(086) 830.2123</span>
+                        </a>
+                        <a href="#!" class="item d-flex align-items">
+                            <svg
+                                class="icon-hover-txt"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512">
+                                <path
+                                    fill="currentColor"
+                                    d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                            </svg>
+                            <span class="hover-txt">cskh@tncstore.vn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header mid -->
+            <div class="header-mid">
+                <div class="container">
+                    <div class="content-header-mid">
+                        <!-- Logo -->
+                        <a href="#" class="logo">
+                            <img
+                                src="./assets/img/logo.png"
+                                alt="Logo"
+                                width="160px"
+                                height="45px" />
+                        </a>
+
+                        <!-- Search form -->
+                        <form action="" class="search-form">
+                            <input
+                                type="text"
+                                name=""
+                                id=""
+                                class="text-search"
+                                placeholder="Nhập sản phẩm cần tìm..."
+                                autocomplete="off" />
+                            <button type="submit" class="search-form__submit">
+                                <span>Tìm kiếm</span>
+                                <svg
+                                    class="search-form__icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        fill="currentColor"
+                                        d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                                </svg>
+                            </button>
+                        </form>
+
+                        <!-- User -->
+                        <div class="header-mid-right">
+                            <a href="#!" class="header-mid-right__item">
+                                <svg
+                                    class="header-mid-right__item--icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512">
+                                    <path
+                                        fill="currentColor"
+                                        d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z" />
+                                </svg>
+                                <span class="header-mid-right__txt"
+                                    >Tài khoản</span
+                                >
+                            </a>
+
+                            <div
+                                class="header-mid-right__item box-cart"
+                                id="js-header-cart">
+                                <svg
+                                    class="header-mid-right__item--icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 576 512">
+                                    <path
+                                        fill="currentColor"
+                                        d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                </svg>
+                                <span class="counter-cart js-cart-counter"
+                                    >0</span
+                                >
+
+                                <div
+                                    class="header-cart-hover loaded"
+                                    id="js-header-cart-holder">
+                                    <b class="d-block text-center p-4"
+                                        >Có 0 sản phẩm trong giỏ hàng</b
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header bottom -->
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="header-bottom-content">
+                        <!-- Navbar -->
+                        <nav class="navbar">
+                            <!-- Navbar list -->
+                            <ul class="header-nav">
+                                <!-- Navbar item 1 -->
+                                <li class="header-nav__item">
+                                    <a href="#!" class="nav-top-link">
+                                        MÁY PHOTOCOPY
+                                        <svg
+                                            class="nav-top-link__icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                fill="currentColor"
+                                                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                        </svg>
+                                    </a>
+                                    <!-- Sub-menu list -->
+                                    <ul class="sub-menu">
+                                        <!-- Sub-menu item 1 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-01.png"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Canon
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 2 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-02.png"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy HP
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 3 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-03.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Ricoh
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 4 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-04.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Minolta
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 5 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-05.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Sharp
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 6 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-06.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Toshiba
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 7 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-07.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Xerox
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 8 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-02.png"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Cũ/ ĐQSD
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 9 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-09.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Màu
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Navbar item 2 -->
+                                <li class="header-nav__item">
+                                    <a href="#!" class="nav-top-link">
+                                        MÁY IN
+                                        <svg
+                                            class="nav-top-link__icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                fill="currentColor"
+                                                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                        </svg>
+                                    </a>
+                                    <!-- Sub-menu list -->
+                                    <ul class="sub-menu">
+                                        <!-- Sub-menu item 1 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-01.png"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Canon
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 2 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-02.png"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy HP
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 3 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-03.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Ricoh
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 4 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-04.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Minolta
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 5 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-05.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Sharp
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 6 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-06.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Toshiba
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 7 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-07.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Xerox
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 8 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-02.png"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Cũ/ ĐQSD
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 9 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-09.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Màu
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 10 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-09.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Màu
+                                                </p>
+                                            </a>
+                                        </li>
+
+                                        <!-- Sub-menu item 11 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-09.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Màu
+                                                </p>
+                                            </a>
+                                        </li>
+                                        
+                                        <!-- Sub-menu item 12 -->
+                                        <li class="sub-menu__item">
+                                            <a href="#!" class="sub-menu__link">
+                                                <img
+                                                    src="./assets/img/photocopy-09.jpg"
+                                                    alt=""
+                                                    class="sub-menu__img" />
+                                                <p class="sub-menu__name">
+                                                    Máy Photocopy Màu
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Navbar item 3 -->
+                                <li class="header-nav__item">
+                                    <a href="#!" class="nav-top-link">
+                                        MÁY SCAN
+                                        <svg
+                                            class="nav-top-link__icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                fill="currentColor"
+                                                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <!-- Navbar item 4 -->
+                                <li class="header-nav__item">
+                                    <a href="#!" class="nav-top-link">
+                                        MÁY TÍNH PC
+                                        <svg
+                                            class="nav-top-link__icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                fill="currentColor"
+                                                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <!-- Navbar item 5 -->
+                                <li class="header-nav__item">
+                                    <a href="#!" class="nav-top-link">
+                                        LAPTOP
+                                        <svg
+                                            class="nav-top-link__icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                fill="currentColor"
+                                                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <!-- Navbar item 6 -->
+                                <li class="header-nav__item">
+                                    <a href="#!" class="nav-top-link">
+                                        MÁY CHIẾU
+                                        <svg
+                                            class="nav-top-link__icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                fill="currentColor"
+                                                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <!-- Navbar item 7 -->
+                                <li class="header-nav__item">
+                                    <a href="#!" class="nav-top-link">
+                                        MÁY HỦY TÀI LIỆU
+                                        <svg
+                                            class="nav-top-link__icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                fill="currentColor"
+                                                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <!-- Navbar item 8 -->
+                                <li class="header-nav__item">
+                                    <a href="#!" class="nav-top-link">
+                                        MỰC IN
+                                        <svg
+                                            class="nav-top-link__icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                fill="currentColor"
+                                                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <!-- Navbar item 9 -->
+                                <li class="header-nav__item">
+                                    <a href="#!" class="nav-top-link">
+                                        LINH KIỆN VẬT TƯ
+                                        <svg
+                                            class="nav-top-link__icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                fill="currentColor"
+                                                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </body>
+</html>
